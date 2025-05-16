@@ -15,4 +15,11 @@ public class MainController {
 		logger.info("hello 신혁재");
 		return "{\"msg\":\"OK\"}";
 	}
+	
+	@GetMapping(value = "/list")
+	public String list() {
+		return "";
+	}
+	
+	
 }
