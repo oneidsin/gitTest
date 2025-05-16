@@ -13,6 +13,7 @@ public class MainController {
 	public String main() {
 		
 		logger.info("hello 신혁재");
+		logger.info("아무거나 추가");
 		return "{\"msg\":\"OK\"}";
 	}
 	
